@@ -1,0 +1,15 @@
+C:\Users\lisov\Documents\C#_Basics\bin\Debug\net6.0\C#_Basics.exe
+C:\Users\lisov\Documents\C#_Basics\bin\Debug\net6.0\C#_Basics.deps.json
+C:\Users\lisov\Documents\C#_Basics\bin\Debug\net6.0\C#_Basics.runtimeconfig.json
+C:\Users\lisov\Documents\C#_Basics\bin\Debug\net6.0\C#_Basics.dll
+C:\Users\lisov\Documents\C#_Basics\bin\Debug\net6.0\C#_Basics.pdb
+C:\Users\lisov\Documents\C#_Basics\obj\Debug\net6.0\C#_Basics.csproj.AssemblyReference.cache
+C:\Users\lisov\Documents\C#_Basics\obj\Debug\net6.0\C#_Basics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lisov\Documents\C#_Basics\obj\Debug\net6.0\C#_Basics.AssemblyInfoInputs.cache
+C:\Users\lisov\Documents\C#_Basics\obj\Debug\net6.0\C#_Basics.AssemblyInfo.cs
+C:\Users\lisov\Documents\C#_Basics\obj\Debug\net6.0\C#_Basics.csproj.CoreCompileInputs.cache
+C:\Users\lisov\Documents\C#_Basics\obj\Debug\net6.0\C#_Basics.dll
+C:\Users\lisov\Documents\C#_Basics\obj\Debug\net6.0\refint\C#_Basics.dll
+C:\Users\lisov\Documents\C#_Basics\obj\Debug\net6.0\C#_Basics.pdb
+C:\Users\lisov\Documents\C#_Basics\obj\Debug\net6.0\C#_Basics.genruntimeconfig.cache
+C:\Users\lisov\Documents\C#_Basics\obj\Debug\net6.0\ref\C#_Basics.dll

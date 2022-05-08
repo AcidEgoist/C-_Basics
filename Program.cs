@@ -1,5 +1,6 @@
 ﻿Profiler();
 
+
 static void Profiler(){
 
     string firstName, lastName;
@@ -31,6 +32,20 @@ static void Profiler(){
     Console.Clear();
 
     //Visualisation of profile
-    Console.WriteLine("Проверка правильности данных.\nИмя: {0};\nФамилия: {1};\nВозраст: {2};\nРост: {3};\nВес: {4}.", firstName, lastName, age, height, weight);
+    Console.WriteLine("Профиль создан.\nИмя: {0}\nФамилия: {1}\nВозраст: {2}\nРост: {3}\nВес: {4}", firstName, lastName, age, height, weight);
+    Console.Write("\nДля продрлжения нажмите любую кнопку");  
+    Console.ReadLine(); 
+
+    Console.Clear();
+    Console.WriteLine("Ваш индекс массы тела равен: {0}",BodyWeightIndex(weight, height));
+
+}
+
+static float BodyWeightIndex(float weight, float height){
+    
+    if(height > 100) height /= 100;
+    if (height==0 || height == 0) return 0;
+    
+    return weight/(height*height);
 
 }

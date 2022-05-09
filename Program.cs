@@ -1,5 +1,28 @@
 ﻿Profiler();
 
+Console.Clear();
+
+double x1,x2,y1,y2;
+
+
+Console.WriteLine("Введите координату х первой точки: ");
+double.TryParse(Console.ReadLine(), out x1);
+
+Console.WriteLine("Введите координату y первой точки: ");
+double.TryParse(Console.ReadLine(), out y1);
+
+Console.WriteLine("Введите координату х второй точки: ");
+double.TryParse(Console.ReadLine(), out x2);
+
+Console.WriteLine("Введите координату у второй точки: ");
+double.TryParse(Console.ReadLine(), out y2);
+
+Console.Clear();
+Console.WriteLine("Расстояние между точками равно: {0}",TwoPointsDistance(x1, y1, x2, y2));
+
+Console.Write("Для продолжения нажмите любую кнопку");
+Console.Read();
+Console.Clear();
 
 static void Profiler(){
 
@@ -39,6 +62,9 @@ static void Profiler(){
     Console.Clear();
     Console.WriteLine("Ваш индекс массы тела равен: {0}",BodyWeightIndex(weight, height));
 
+    Console.Write("Для продолжения нажмите любую кнопку");
+    Console.Read();
+
 }
 
 static float BodyWeightIndex(float weight, float height){
@@ -47,5 +73,11 @@ static float BodyWeightIndex(float weight, float height){
     if (height==0 || height == 0) return 0;
     
     return weight/(height*height);
+
+}
+
+static double TwoPointsDistance(double x1, double y1, double x2, double y2){
+
+    return (Math.Sqrt(Math.Pow(x2-x1,2) + Math.Pow(y2-y1,2)));
 
 }
